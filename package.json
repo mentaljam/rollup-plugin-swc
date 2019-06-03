@@ -1,0 +1,46 @@
+{
+  "name": "rollup-plugin-swc",
+  "version": "0.1.0",
+  "description": "Rollup plugin to compile bundles with the SWC.",
+  "homepage": "https://github.com/mentaljam/rollup-plugin-swc",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://github.com/mentaljam/rollup-plugin-swc"
+  },
+  "bugs": {
+    "url": "https://github.com/mentaljam/rollup-plugin-swc/issues"
+  },
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.es.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "LICENSE",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "rollup -c",
+    "lint": "tslint -p .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "rollup",
+    "plugin",
+    "swc"
+  ],
+  "author": "Petr Tsymbarovich <petr@tsymbarovich.ru>",
+  "license": "MIT",
+  "devDependencies": {
+    "@swc/core": "^1.0.42",
+    "rollup": "^1.13.1",
+    "rollup-plugin-tslint": "^0.2.2",
+    "rollup-plugin-typescript2": "^0.21.1",
+    "tslint": "^5.17.0",
+    "tslint-config-prettier": "^1.18.0",
+    "typescript": "^3.5.1"
+  },
+  "peerDependencies": {
+    "@swc/core": ">=1.0",
+    "rollup": ">=1.5.0"
+  }
+}

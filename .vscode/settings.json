@@ -1,0 +1,12 @@
+{
+  "editor.tabSize": 2,
+  "files.eol": "\n",
+  "files.exclude": {
+    "**/.git": true,
+    "**/.rpt2_cache": true,
+    "**/dist": true,
+    "**/node_modules": true
+  },
+  "javascript.preferences.quoteStyle": "single",
+  "typescript.preferences.quoteStyle": "single"
+}

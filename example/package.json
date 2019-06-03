@@ -1,0 +1,16 @@
+{
+  "name": "rollup-plugin-swc-example",
+  "version": "1.0.0",
+  "description": "Usage example for the rollup-plugin-swc.",
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "author": "Petr Tsymbarovich <petr@tsymbarovich.ru>",
+  "license": "MIT",
+  "devDependencies": {
+    "@swc/core": "^1.0.42",
+    "rollup": "^1.13.1",
+    "rollup-plugin-node-resolve": "^5.0.1",
+    "rollup-plugin-swc": "../"
+  }
+}
