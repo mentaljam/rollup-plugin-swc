@@ -8,9 +8,8 @@
   "author": "Petr Tsymbarovich <petr@tsymbarovich.ru>",
   "license": "MIT",
   "devDependencies": {
-    "@swc/core": "^1.0.43",
-    "rollup": "^1.14.3",
-    "rollup-plugin-node-resolve": "^5.0.1",
+    "rollup": "^1.27.8",
+    "rollup-plugin-node-resolve": "^5.2.0",
     "rollup-plugin-swc": "../"
   }
 }
