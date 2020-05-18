@@ -1,26 +1,21 @@
-import resolve from '@rollup/plugin-node-resolve'
-import swc from 'rollup-plugin-swc'
-
+import swc from '../dist/index.es'
 
 const config = (target) => ({
-  input: 'index.ts',
+  input: './example/index.ts',
   output: {
-    file: `dist/index.${target}.js`,
-    format: 'es',
+    file: `example/dist/index.${target}.js`,
+    format: 'es'
   },
   plugins: [
-    resolve({
-      extensions: ['.ts'],
-    }),
     swc({
       jsc: {
         parser: {
-          syntax: 'typescript',
+          syntax: 'typescript'
         },
-        target,
-      },
-    }),
-  ],
+        target
+      }
+    })
+  ]
 })
 
 export default [
