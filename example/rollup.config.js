@@ -1,4 +1,4 @@
-import resolve from 'rollup-plugin-node-resolve'
+import resolve from '@rollup/plugin-node-resolve'
 import swc from 'rollup-plugin-swc'
 
 
