@@ -19,7 +19,8 @@
     "README.md"
   ],
   "scripts": {
-    "build": "rollup -c",
+    "build": "ts-node --project ./scripts/tsconfig.json ./scripts/build.ts",
+    "example": "rollup -c ./example/rollup.config.js",
     "lint": "tslint -p .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -32,15 +33,17 @@
   "license": "MIT",
   "devDependencies": {
     "@swc/core": "^1.1.43",
+    "@types/node": "^14.0.5",
     "rollup": "^2.10.2",
+    "rollup-plugin-dts": "^1.4.7",
     "rollup-plugin-tslint": "^0.2.2",
-    "rollup-plugin-typescript2": "^0.27.1",
+    "ts-node": "^8.10.1",
     "tslint": "^6.1.2",
     "tslint-config-prettier": "^1.18.0",
-    "typescript": "^3.9.2"
+    "typescript": "^3.9.3"
   },
   "peerDependencies": {
-    "@swc/core": ">=1.0",
-    "rollup": ">=1.5.0"
+    "@swc/core": ">=1.1",
+    "rollup": ">=2.10.9"
   }
 }
