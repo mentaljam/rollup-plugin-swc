@@ -8,8 +8,8 @@
   "author": "Petr Tsymbarovich <petr@tsymbarovich.ru>",
   "license": "MIT",
   "devDependencies": {
-    "rollup": "^2.10.2",
-    "@rollup/plugin-node-resolve": "^7.1.3",
+    "rollup": "^2.52.3",
+    "@rollup/plugin-node-resolve": "^13.0.0",
     "rollup-plugin-swc": "../"
   }
 }
