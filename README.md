@@ -5,8 +5,9 @@
 ## Install
 
 ```sh
-npm i -D rollup-plugin-swc
+npm i -D rollup-plugin-swc @swc/core
 ```
+> Note: `@swc/core` is a peer dependency
 
 ## Usage
 
