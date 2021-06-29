@@ -4,6 +4,5 @@ export interface IOpts {
 }
 
 export const greet = ({greeting, name}: IOpts) => {
-  // tslint:disable-next-line:no-console
   console.log(`${greeting}, ${name}!`)
 }

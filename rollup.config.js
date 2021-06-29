@@ -1,4 +1,3 @@
-import tslint from 'rollup-plugin-tslint'
 import typescript from 'rollup-plugin-typescript2'
 
 
@@ -16,7 +15,6 @@ export default formats.map(format => ({
     '@swc/core',
   ],
   plugins: [
-    tslint(),
     typescript(),
   ],
 }))
