@@ -5,9 +5,11 @@ importers:
   .:
     specifiers:
       '@swc/core': ^1.2.62
+      rollup: ^2.52.4
       typescript: ^4.3.4
     devDependencies:
       '@swc/core': 1.2.62
+      rollup: 2.52.4
       typescript: 4.3.4
 
   example:
