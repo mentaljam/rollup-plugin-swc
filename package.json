@@ -40,5 +40,8 @@
   "peerDependencies": {
     "@swc/core": ">=1.0",
     "rollup": ">=1.5.0"
+  },
+  "dependencies": {
+    "@rollup/pluginutils": "^4.1.1"
   }
 }
