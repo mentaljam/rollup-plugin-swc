@@ -1,6 +1,6 @@
 {
   "name": "rollup-plugin-swc",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Rollup plugin to compile bundles with the SWC.",
   "homepage": "https://github.com/mentaljam/rollup-plugin-swc",
   "repository": {
